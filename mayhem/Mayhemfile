@@ -1,0 +1,5 @@
+project: jsonpickle
+target: decode-fuzz
+cmds:
+  - cmd: /src/mayhem/fuzz_decode.py
+    libfuzzer: true
